@@ -1,4 +1,4 @@
-## Micro-Project: High-Availability Web Architecture with Consul and HAProxy 
+# Micro-Project: High-Availability Web Architecture with Consul and HAProxy 
 
 ![Vagrant](https://img.shields.io/badge/Vagrant-186BBA?style=flat-square&logo=vagrant&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
@@ -35,7 +35,7 @@ This instruction commands Vagrant to initialize the virtual hardware definitions
 
 Once the environment initialization completes successfully, you must manually launch the underlying web application instances on the backend nodes.
 
-# Launching the Server on Node One
+### Launching the Server on Node One
 Access the server node via SSH and start the Node.js application server on port 3000:
 
 ```bash
@@ -43,7 +43,7 @@ vagrant ssh nodoUno
 start-node-server 3000
 ```
 
-# Launching the Server on Node Two
+### Launching the Server on Node Two
 Establish an identical environment state on the client node by connecting via SSH and initializing the secondary application server instance on port 3000:
 
 ```bash
